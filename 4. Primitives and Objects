@@ -1,0 +1,29 @@
+// Primitives and Objects in JavaScript
+
+// primitives are numbers, strings, booleans, null, bigInt undefined, and symbols (nn bb ss u)
+
+let a = null;
+let b = 345;
+let c = true; // can also be false
+let d = BigInt("567") + BigInt("3");
+let e = "Manjit";
+let f = Symbol("I am a nice symbol");
+let g = undefined;
+
+console.log(a, b, c, d, e, f, g);
+
+// We use typeof to find the type of a variable in JavaScript
+
+console.log(typeof d);
+
+
+// Non-primitives Data Types - Objects in JavaScript
+
+const item = {
+  "India": "Delhi",
+  "USA": "Washington DC",
+  "Japan": "Tokyo",
+  "Russia": "Moscow",
+  "Germany":""}
+console.log(item["India"]);
+console.log(item["Germany"]); //undefined
