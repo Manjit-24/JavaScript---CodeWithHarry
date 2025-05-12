@@ -1,0 +1,38 @@
+✅ Introduction to JavaScript
+
+JavaScript is a programming language used to create interactive and dynamic behavior on websites. It runs in the browser (like Chrome or Firefox) and can:
+
+1. Respond to user actions (clicks, input)
+2. Modify HTML/CSS content dynamically
+3.Validate forms
+4. Work with APIs and store data
+
+It’s one of the core technologies of the web, along with HTML and CSS.
+
+  🛠️ Setting Up JavaScript (No Software Needed!)
+
+You can write JavaScript in two easy ways:
+
+1. Inline in HTML
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+  </head>
+  <body>
+    <h1>Hello from JavaScript!</h1>
+
+    <script>
+      alert("Welcome to JavaScript!");
+    </script>
+  </body>
+</html>
+
+
+2. External File
+
+Create a file named script.js and link it:
+
+<script src="script.js"></script>
+
