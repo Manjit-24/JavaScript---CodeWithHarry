@@ -1,0 +1,43 @@
+// Practice Set
+
+// 1. Create a variable of type string and try to add a number to it.
+
+let a = "Manjit";
+let b = 24;
+let c = a+b;
+console.log(c);
+
+
+// 2. Use typeof operator to find the datatype of the string in last question.
+
+console.log(typeof c); // string
+
+
+// 3. Create a const object in javascript can you change it to hold a number later?
+
+const z = {
+    name: "Manjit",
+    section: 1,
+    isPrincipal: false
+}
+// z = "Manjit" // error
+
+
+// 4. Try to add a new key to the const object in problem 3. Were you able to do it?
+
+z ['friend'] = "Mark";
+console.log(z);
+
+
+// 5. Write a JS program to create a word-meaning dictionary of 5 words.
+
+const dict = {
+    appreciate: "recognize the full worth of.",
+    ataraxia: "a state of freedom from emotional disturbance and anxiety.",
+    yakka: "work, especially hard work.",
+    yakshagana: "a traditional form of music, dance, and theatre from the Indian state of Karnataka.",
+    yantra: "a mechanical or magical device in Hindu mythology."
+}
+
+console.log(dict.yakka);
+console.log(dict['yakshagana']);
