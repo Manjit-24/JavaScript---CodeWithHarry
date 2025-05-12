@@ -1,0 +1,39 @@
+// Const , Let , Var in ES6
+
+// const : constant variable
+// let : block scope variable
+// var : function scope variable
+
+var a = 45;
+var b = "Manjit";
+var c = null;
+var d = undefined;
+{
+  var b = "this";
+  console.log(b);
+}
+console.log(b);
+
+
+let x = 45;
+{
+  let x = "this";
+  console.log(x);
+} // block scope
+console.log(x);
+
+// let can be updated but not re-declared
+
+let y = 45;
+y = 56;
+console.log(y);
+
+
+let z = 45;
+let z = 56;
+console.log(z); 
+// Throws an error because let cannot be re-declared
+
+
+const author = "Manjit";
+author = 5; // Throws an error because constant cannot be changed or re-declared
