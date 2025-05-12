@@ -1,0 +1,29 @@
+// Variables in JavaScript
+
+// Variables in JavaScript : var, let, const
+
+// Variable : A container to store data
+
+// Variable cannot start with a number or special character except _ and $
+
+var name = "Manjit"; // name contains Manjit
+console.log(name);
+
+var a = 24;
+a = "Manjit";
+// var allows chane a value in the runtime
+console.log(a);
+
+let age = 24;
+age = 23.3;
+console.log(age);
+
+const $name = "Manjit";
+console.log($name);
+
+const _name = "Manjit";
+_name = "Sarkar";
+console.log(_name);
+// const does not allow to change a value in the runtime
+
+// JavaScript is case sensitive like Python : Age and age are different
