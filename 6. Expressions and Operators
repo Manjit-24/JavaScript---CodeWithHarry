@@ -1,0 +1,61 @@
+// Expressions and Operators
+
+// Operators in JavaScript : Arithmetic Operators
+
+// Arithmetic Operators : +, -, *, /, %, **, ++, --
+
+console.log("Arithmetic Operators in JS : ");
+
+let a = 10;
+let b = 20;
+
+console.log("a + b = ", a + b);
+console.log("a - b = ", a - b);
+console.log("a * b = ", a * b);
+console.log("a / b = ", a / b);
+console.log("a % b = ", a % b);
+console.log("a ** b = ", a ** b);
+
+console.log("a++ = ", a++); console.log("++a = ", ++a);
+
+console.log("a-- = ", a--);
+console.log("--a = ", --a);
+
+
+// Assignment Operators : =, +=, -=, *=, /=, %=, **=
+
+console.log("Assignment Operators in JS : ");
+
+let x = 5;
+let y = 6;
+
+
+console.log("x = y : ", x = y);
+console.log("x += y : ", x += y);
+
+
+// Comparison Operators : ==, ===, !=, !==, >, <, >=, <=
+
+// Comparison Operators always return a boolean value.
+
+console.log("Comparison Operators in JS : ");
+
+let a1 = 1;
+let a2 = true;
+
+console.log("a1 == a2 : ", a1 == a2); // true
+
+console.log("a1 === a2 : ", a1 === a2); // false because of different data types
+
+console.log("a1 != a2 : ", a1 != a2); // false
+
+console.log("a1 !== a2 : ", a1 !== a2); // true
+
+console.log("a1 > a2 : ", a1 > a2); // false
+
+console.log("a1 < a2 : ", a1 < a2); // false
+
+console.log("a1 >= a2 : ", a1 >= a2); // true
+
+console.log("a1 <= a2 : ", a1 <= a2); // true
+
